@@ -1,0 +1,21 @@
+/* Features.css */
+.card {
+    border: 1px solid #dee2e6; 
+    border-radius: 10px; }
+  
+  .card-title {
+    color: #343a40; 
+  }
+  
+  .card-text {
+    color: #6c757d; 
+  }
+  
+  .mt-5 {
+    margin-top: 3rem !important; 
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem !important; 
+  }
+  

@@ -13,7 +13,7 @@ const DeleteEmployee = () => {
     setSuccess('');
 
     try {
-      await axios.delete(`http://localhost:8082/deleteEmployee/${empId}`); // Adjust URL as needed
+      await axios.delete(`http://localhost:8082/deleteEmployee/${empId}`);
       setSuccess('Employee deleted successfully');
       setEmpId('');
     } catch (error) {

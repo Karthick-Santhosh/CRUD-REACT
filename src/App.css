@@ -4,6 +4,22 @@ body {
   margin: 0;
   padding: 0;
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 40px; /* Adjust the height as needed */
+  width: auto;
+}
+
+.logo-text {
+  margin-left: 10px; /* Space between the image and text */
+  color: white; /* Adjust text color as needed */
+  font-size: 20px; /* Adjust text size as needed */
+  font-weight: bold;
+}
 
 header {
   background-color: #333;
@@ -69,8 +85,39 @@ button {
   margin-top: 1rem;
 }
 .app-container {
-  background-color: blue; /* Change this to your desired background color */
+  background-color: blue; 
   min-height: 100vh;
   padding: 20px;
   box-sizing: border-box;
+}
+/* .assist {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+} */
+
+
+/* Contact.css */
+
+.contact-page {
+  padding: 50px 0;
+}
+
+.contact-details p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.additional-content {
+  margin-top: 30px;
+}
+
+.additional-content h2 {
+  margin-bottom: 20px;
+}
+
+.additional-content p {
+  font-size: 16px;
+  line-height: 1.5;
 }
