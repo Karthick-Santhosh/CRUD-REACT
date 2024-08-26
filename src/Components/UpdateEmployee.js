@@ -15,7 +15,7 @@ const handleSubmit = async (e) => {
     setLoading(true);
   
     try {
-      const response = await axios.put('http://localhost:8082/updateEmployee', {
+     await axios.put('http://localhost:8082/updateEmployee', {
         id: formData.id, 
         phno: formData.phno,
         empAddress: formData.empAddress
