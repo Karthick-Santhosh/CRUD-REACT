@@ -13,7 +13,7 @@ const AddEmployee = () => {
   //   setSuccess('');
     
   //   try {
-  //     await axios.post('http://localhost:8082/addEmployee', formData); // Adjust URL as needed
+  //     await axios.post('http://localhost:8082/addEmployee', formData); 
   //     setSuccess('Employee added successfully');
   //     setFormData({ id: '', phno: '', empAddress: '' });
   //   } catch (error) {

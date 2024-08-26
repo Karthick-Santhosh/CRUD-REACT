@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8082'; // Your Spring Boot app URL
+const API_URL = 'http://localhost:8082'; 
 
 export const addEmployee = (employee) => axios.post(`${API_URL}/addEmployee`, employee);
 export const getEmployees = () => axios.get(`${API_URL}/getAllEmployees`);

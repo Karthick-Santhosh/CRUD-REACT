@@ -1,23 +1,23 @@
 .custom-navbar {
-  background-color: #343a40; /* Dark background */
-  border-bottom: 3px solid #007bff; /* Blue bottom border */
+  background-color: #343a40; 
+  border-bottom: 3px solid #007bff; 
 }
 
 .custom-brand {
-  color: #f8f9fa; /* Light text color for brand */
+  color: #f8f9fa; 
   font-weight: bold;
   font-size: 1.5rem;
 }
 
 .custom-link {
-  color: #f8f9fa; /* Light text color for links */
+  color: #e9ecef; 
   margin-right: 1rem;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .custom-link:hover {
-  color: #007bff; /* Change color on hover */
+  color: #007bff; 
 }
 
 .navbar-toggler {
@@ -28,7 +28,7 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%288, 7, 7, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/ %3E%3C/svg%3E");
 }
 
-/* Media queries for responsiveness */
+
 @media (max-width: 991px) {
   .custom-link {
     margin-right: 0;

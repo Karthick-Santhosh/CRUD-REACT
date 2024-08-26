@@ -16,7 +16,7 @@ const handleSubmit = async (e) => {
   
     try {
       const response = await axios.put('http://localhost:8082/updateEmployee', {
-        id: formData.id, // Ensure this matches the backend's expected field
+        id: formData.id, 
         phno: formData.phno,
         empAddress: formData.empAddress
       }, {

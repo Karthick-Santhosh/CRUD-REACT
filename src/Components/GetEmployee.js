@@ -15,7 +15,7 @@ const GetEmployee = () => {
     setLoading(true);
 
     try {
-      const response = await axios.get(`http://localhost:8082/getEmployee/${empId}`); // Adjust URL as needed
+      const response = await axios.get(`http://localhost:8082/getEmployee/${empId}`); 
       setEmployee(response.data);
     } catch (error) {
       console.error('Error fetching employee details', error);
