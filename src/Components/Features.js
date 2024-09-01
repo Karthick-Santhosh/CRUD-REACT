@@ -10,9 +10,9 @@ const Features = () => {
         <Col md={4} className="mb-4">
           <Card>
             <Card.Body>
-              <Card.Title>Feature 1</Card.Title>
+              <Card.Title>visibility</Card.Title>
               <Card.Text>
-                Description of Feature 1. Explain how this feature benefits the user or enhances the product.
+              Increase employee data visibility across regions
               </Card.Text>
             </Card.Body>
           </Card>
@@ -20,9 +20,9 @@ const Features = () => {
         <Col md={4} className="mb-4">
           <Card>
             <Card.Body>
-              <Card.Title>Feature 2</Card.Title>
+              <Card.Title>Security</Card.Title>
               <Card.Text>
-                Description of Feature 2. Provide details about this feature and its advantages.
+              Guarantee secure data management and employee privacy
               </Card.Text>
             </Card.Body>
           </Card>
@@ -30,9 +30,9 @@ const Features = () => {
         <Col md={4} className="mb-4">
           <Card>
             <Card.Body>
-              <Card.Title>Feature 3</Card.Title>
+              <Card.Title>Customization</Card.Title>
               <Card.Text>
-                Description of Feature 3. Highlight how this feature stands out and its impact on the user experience.
+              Customize and manage your workforce in your preferred way
               </Card.Text>
             </Card.Body>
           </Card>

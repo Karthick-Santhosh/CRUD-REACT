@@ -10,9 +10,9 @@ const Contact = () => {
           <h1>Contact Us</h1>
           <p>We'd love to hear from you! Here are our contact details:</p>
           <div className="contact-details">
-            <p><strong>Email:</strong> contact@example.com</p>
-            <p><strong>Phone:</strong> +1 (234) 567-8901</p>
-            <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+            <p><strong>Email:</strong> karthick.sivadhanu@gmail.com</p>
+            <p><strong>Phone:</strong> 91+ 8056378548</p>
+            <p><strong>Address:</strong>Chennai, Tamil Nadu</p>
           </div>
           <div className="additional-content">
             <h2>More Information</h2>
